@@ -99,8 +99,7 @@ export function TwitchEmbed() {
 
   return (
     <iframe
-    src="https://clips.twitch.tv/embed?clip=https://clips.twitch.tv/WiseGrotesqueGorillaCmonBruh-YefYwzd3zRQn1Ph-&parent=http://localhost:3000&output=embed"
-    https://player.twitch.tv/?<channel, video, or collection>&parent=streamernews.example.com
+    src={`https://clips.twitch.tv/embed?clip=${clips[clipIndex]?.node?.slug}&parent=www.lobbysquad.com.br&autoplay=true&muted=true`}
     height="<height>"
     width="<width>"
     allowfullscreen>
