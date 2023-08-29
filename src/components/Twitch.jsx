@@ -11,7 +11,7 @@ export function Twitch() {
       const fetchData = async () => {
         try {
           const response = await axios.get(
-            'https://clips.twitch.tv/embed?clip=${slug}&parent=www.lobbysquad.com.br&autoplay=true&muted=true',
+            'https://clips.twitch.tv/embed?clip=${slug}&parent=localhost&autoplay=true&muted=true',
             {
               headers: {
                 'Client-ID': 'kimne78kx3ncx6brgo4mv6wki5h1ko',
