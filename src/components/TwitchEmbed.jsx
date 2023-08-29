@@ -99,7 +99,7 @@ export function TwitchEmbed() {
 
   return (
     <iframe
-      src={`https://clips.twitch.tv/embed?clip=${clips[clipIndex]?.node?.slug}&parent=http://https://christyansegecs.github.io/Twitch-Embed&autoplay=true&muted=true`}
+      src={`https://clips.twitch.tv/embed?clip=${clips[clipIndex]?.node?.slug}&parent=http://https://christyansegecs.github.io/Twitch-Embed&autoplay=true&muted=true&output=embed`}
       height="<height>"
       width="<width>"
       allowFullScreen>
