@@ -99,10 +99,10 @@ export function TwitchEmbed() {
 
   return (
     <iframe
-    src={`https://clips.twitch.tv/embed?clip=${clips[clipIndex]?.node?.slug}&parent=www.lobbysquad.com.br&autoplay=true&muted=true`}
-    height="<height>"
-    width="<width>"
-    allowfullscreen>
-</iframe>
+      src={`https://clips.twitch.tv/embed?clip=${clips[clipIndex]?.node?.slug}&parent=http://https://christyansegecs.github.io/Twitch-Embed&autoplay=true&muted=true`}
+      height="<height>"
+      width="<width>"
+      allowFullScreen>
+    </iframe>
   );
 }
