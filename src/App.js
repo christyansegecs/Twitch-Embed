@@ -7,8 +7,10 @@ import { TwitchEmbed } from './components/TwitchEmbed';
 function App() {
   return (
     <div className="">
+      <div >
+        <Twitch />
+      </div>
       <TwitchEmbed />
-      <Twitch />
     </div>
   );
 }
