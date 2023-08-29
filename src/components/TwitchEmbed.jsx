@@ -4,6 +4,9 @@ import ReactTwitchEmbedVideo from "react-twitch-embed-video"
 export function TwitchEmbed() {
 
   return (
-    <iframe src="https://clips.twitch.tv/embed?clip=FreezingIgnorantTardigradeYee-JQbeCETm8SnuQqs5&parent=https://christyansegecs.github.io/Twitch-Embed/" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+    <>
+      <iframe src="https://clips.twitch.tv/embed?clip=FreezingIgnorantTardigradeYee-JQbeCETm8SnuQqs5&parent=https://christyansegecs.github.io/Twitch-Embed&output=embed" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+      <ReactTwitchEmbedVideo channel="dotalobbysquad" />
+    </>
   );
 }
