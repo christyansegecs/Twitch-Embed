@@ -22,7 +22,7 @@ export function TwitchEmbed() {
       const slug = clips[clipIndex]?.node?.slug;
       const iframe = document.querySelector("#twitch-clips iframe");
       if (iframe) {
-        iframe.setAttribute('src', `https://clips.twitch.tv/embed?clip=${slug}&parent=http://localhost:3000&autoplay=true&muted=true`);
+        iframe.setAttribute('src', `https://clips.twitch.tv/embed?clip=${slug}&parent=https://christyansegecs.github.io/Twitch-Embed/&autoplay=true&muted=true`);
       }
     }
   }
