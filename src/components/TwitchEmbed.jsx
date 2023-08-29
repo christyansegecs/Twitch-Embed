@@ -9,7 +9,13 @@ export function TwitchEmbed() {
       <ReactTwitchEmbedVideo channel="talk2megooseman" />
     </div>
     <div>
-      <iframe src="https://player.twitch.tv/embed?clip=FreezingIgnorantTardigradeYee-JQbeCETm8SnuQqs5&parent=https://christyansegecs.github.io/Twitch-Embed" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+      <iframe         title="Twitch Clip"
+        src="https://clips.twitch.tv/embed?clip=FreezingIgnorantTardigradeYee-JQbeCETm8SnuQqs5&parent=https://christyansegecs.github.io/Twitch-Embed"
+        frameBorder="0"
+        allowFullScreen="true"
+        scrolling="no"
+        height="378"
+        width="620"></iframe>
     </div>      
     </>
   );
